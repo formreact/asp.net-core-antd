@@ -23,6 +23,7 @@ ERROR in [at-loader] <br>
 这个错误的解决方式是：<br>
 package.json中改为15.0.38：<br>
 "@types/react": "15.0.38"<br>
+https://github.com/OfficeDev/office-ui-fabric-react/issues/2393
 
 6. TS2304: Cannot find name 'PropertyKey'.<br>
 ERROR in [at-loader] <br>
