@@ -60,4 +60,5 @@ typings/
 bin/
 obj/
 .vs/
+wwwroot/dist
 

@@ -1,5 +1,6 @@
 import * as React from 'react';
 import { RouteComponentProps } from 'react-router';
+import Button from 'antd/lib/button';
 
 interface CounterState {
     currentCount: number;
@@ -18,8 +19,8 @@ export class Counter extends React.Component<RouteComponentProps<{}>, CounterSta
             <p>This is a simple example of a React component.</p>
 
             <p>Current count: <strong>{ this.state.currentCount }</strong></p>
-
-            <button onClick={ () => { this.incrementCounter() } }>Increment</button>
+            <Button type="primary"
+                onClick={() => { this.incrementCounter() }}>Increment Button</Button>
         </div>;
     }
 
