@@ -35,3 +35,6 @@ tsconfig.json中加入：<br>
 https://github.com/ant-design/ant-design/issues/6874
 
 感谢：Ant Design，如有更好的实现方式，请告诉我。
+
+后面会加入Ant Design的组件Demo代码，移植为TypeScript兼容：<br>
+https://ant.design/docs/react/introduce-cn
