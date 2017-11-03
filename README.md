@@ -1,5 +1,7 @@
 # asp.net core antd
 
+0. 创建ASP.NET Core Web项目，带React.js。
+
 1. 删除npm-shrinkwrap.json
 
 2. package.json中加入：<br>
